@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600&display=swap");
 
 body {
-  margin: 1rem auto;
+  margin: 0;
   padding: 0;
   background: rgb(0, 188, 227);
   background: linear-gradient(
@@ -25,7 +25,6 @@ body {
   box-shadow: 1px 2px 0.9em rgba(0, 0, 0, 0.144);
 }
 header {
-  width: 50%;
 }
 main {
   min-width: 25rem;

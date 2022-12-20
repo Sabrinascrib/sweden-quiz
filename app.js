@@ -15,3 +15,7 @@ const disable = (button) => {
 };
 
 const enable = (button) => button.removeAttribute("disabled");
+
+function isCorrect(guessString) {
+  return guessString === fact.answer.toString();
+}

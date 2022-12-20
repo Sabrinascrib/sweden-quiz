@@ -9,3 +9,9 @@ const fact = {
 };
 
 statement.textContent = fact.statement;
+
+const disable = (button) => {
+  button.setAttribute("disabled", "");
+};
+
+const enable = (button) => button.removeAttribute("disabled");

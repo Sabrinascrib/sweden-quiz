@@ -19,3 +19,9 @@ const enable = (button) => button.removeAttribute("disabled");
 function isCorrect(guessString) {
   return guessString === fact.answer.toString();
 }
+
+for (let button of optionButtons) {
+  button.addEventListener("click", (event) => {
+    explanation.textContent = fact.explanation;
+  });
+}

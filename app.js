@@ -23,5 +23,9 @@ function isCorrect(guessString) {
 for (let button of optionButtons) {
   button.addEventListener("click", (event) => {
     explanation.textContent = fact.explanation;
+
+    for (let otherButton of optionButtons) {
+      disable(otherButton);
+    }
   });
 }

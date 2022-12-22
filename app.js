@@ -27,5 +27,11 @@ for (let button of optionButtons) {
     for (let otherButton of optionButtons) {
       disable(otherButton);
     }
+
+    if (isCorrect(button.value)) {
+      button.classList.add("correct");
+    } else {
+      button.classList.add("incorrect");
+    }
   });
 }
